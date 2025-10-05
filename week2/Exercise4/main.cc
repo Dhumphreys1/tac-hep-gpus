@@ -18,8 +18,6 @@
 #include <TLorentzVector.h>
 
 
-
-// I'm not putting 3 classes and a dozen methods in a single script.
 // See headers and source
 
 int main() {
