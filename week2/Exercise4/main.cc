@@ -52,18 +52,28 @@ int main() {
 		std::cout<<" Event "<< jentry <<std::endl;
 
 		//FIX ME
-		for (int i = 0; i < nleps; i++){
-			Lepton lep(lepPt[i], lepEta[i], lepPhi[i], lepE[i]);
-			lep.setCharge(lepQ[i]);
-			lep.print();
+		if (nleps < 1){
+			std::cout<< "There are no leps in this event, nleps < 1." << std::endl;
 		}
-
-		for (int i = 0; i < njets; i++){
-			Jet jet(jetPt[i], jetEta[i], jetPhi[i], jetE[i]);
-			jet.setFlavor(jetHadronFlavour[i]);
-			jet.print();
+		else{
+			std::cout << "Printing LEPS!" << std::endl;
+			for (int i = 0; i < nleps; i++){
+				Lepton lep(lepPt[i], lepEta[i], lepPhi[i], lepE[i]);
+				lep.setCharge(lepQ[i]);
+				lep.print();
+			}
 		}
-
+		if (njets < 1){
+			std::cout<< "There are no jets in this event, njets < 1." << std::endl;
+		}
+		else{
+			std::cout << "Printing JETS!" << std::endl;
+			for (int j = 0; j < njets; j++){
+				Jet jet(jetPt[j], jetEta[j], jetPhi[j], jetE[j]);
+				jet.setFlavor(jetHadronFlavour[j]);
+				jet.print();
+			}
+		}
 	} // Loop over all events
 
   	return 0;
