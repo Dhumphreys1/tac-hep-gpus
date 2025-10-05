@@ -22,6 +22,7 @@ Particle::Particle(double pt, double eta, double phi, double E){
 	p[1] = this->eta = eta;
 	p[2] = this->phi = phi;
 	p[3] = this->E = E;
+	m = std::sqrt(E*E - std::pow(pt * std::cosh(eta), 2));
 }
 
 //
