@@ -66,8 +66,6 @@ int main() {
 			jet.print();
 		}
 
-
-
 	} // Loop over all events
 
   	return 0;

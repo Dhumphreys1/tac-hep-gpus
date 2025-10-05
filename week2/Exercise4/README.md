@@ -2,7 +2,7 @@
 
 First we have to compile :
 ```
-g++ main.cc -o main -I hh `root-config --cflags --glibs`
+ g++ -std=c++17 -I hh -o main main.cc src/*.cxx `root-config --cflags --glibs`
 ```
 
 And then excecute:

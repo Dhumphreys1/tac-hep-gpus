@@ -2,8 +2,8 @@
 // Particle Class
 //
 
-#ifndef HH_PARTICLE_H
-#define HH_PARTICLE_H
+#ifndef PARTICLE_H
+#define PARTICLE_H
 #include <iostream>
 #include <math.h>
 
