@@ -31,9 +31,7 @@ Particle::Particle(double pt, double eta, double phi, double E){
 double Particle::sintheta(){
 	// theta = 2 * arctan(exp(-eta))
     // sin(theta) = 2*exp(-eta) / (1 + exp(-2*eta))
-    double eta = this->p[1]; // eta is stored in p[1]
-    double result = 2.0 * std::exp(-eta) / (1.0 + std::exp(-2*eta));
-    return result;
+    return 2.0 * std::exp(-eta) / (1.0 + std::exp(-2*eta));;
 }
 
 void Particle::p4(double pt, double eta, double phi, double E){
