@@ -54,7 +54,14 @@ int main (){
     // rock = 1
     // paper = 2
     // scissors = 3
-    int a = 1;
-    int b = 1;
-    playRockPaperScissors(a, b);
+    int a[3] = {1, 2, 3};
+    int b[3] = {1, 2, 3};
+
+    // Now we try all combinations
+    for (const int PlayerA_move : a ){
+        for (const int PlayerB_move : b ){
+            playRockPaperScissors(PlayerA_move, PlayerB_move);
+            std::cout<<std::endl;
+        }
+    }
 }
