@@ -6,81 +6,24 @@
 #include <string.h>
 
 #include "t1.h"
+#include "lepton.h"
+#include "particle.h"
+#include "jets.h"
 
 #include <TMath.h>
 #include <TFile.h>
 #include <TTree.h>
 #include <TH1F.h>
-#include <TCanvas.h> 
+#include <TCanvas.h>
 #include <TLorentzVector.h>
 
 
 
-//------------------------------------------------------------------------------
-// Particle Class
-//
-class Particle{
-
-	public:
-	Particle();
-	// FIXME : Create an additional constructor that takes 4 arguments --> the 4-momentum
-	double   pt, eta, phi, E, m, p[4];
-	void     p4(double, double, double, double);
-	void     print();
-	void     setMass(double);
-	double   sintheta();
-};
-
-//------------------------------------------------------------------------------
-
-//*****************************************************************************
-//                                                                             *
-//    MEMBERS functions of the Particle Class                                  *
-//                                                                             *
-//*****************************************************************************
-
-//
-//*** Default constructor ------------------------------------------------------
-//
-Particle::Particle(){
-	pt = eta = phi = E = m = 0.0;
-	p[0] = p[1] = p[2] = p[3] = 0.0;
-}
-
-//*** Additional constructor ------------------------------------------------------
-Particle::Particle( ){ 
-	//FIXME
-}
-
-//
-//*** Members  ------------------------------------------------------
-//
-double Particle::sintheta(){
-
-	//FIXME
-}
-
-void Particle::p4(double pT, double eta, double phi, double energy){
-
-	//FIXME
-
-}
-
-void Particle::setMass(double mass)
-{
-	// FIXME
-}
-
-//
-//*** Prints 4-vector ----------------------------------------------------------
-//
-void Particle::print(){
-	std::cout << std::endl;
-	std::cout << "(" << p[0] <<",\t" << p[1] <<",\t"<< p[2] <<",\t"<< p[3] << ")" << "  " <<  sintheta() << std::endl;
-}
+// I'm not putting 3 classes and a dozen methods in a single script.
+// See headers and source
 
 int main() {
-	
+
 	/* ************* */
 	/* Input Tree   */
 	/* ************* */
@@ -94,7 +37,7 @@ int main() {
 	t1->SetBranchAddress("lepPhi",&lepPhi);
 	t1->SetBranchAddress("lepE",&lepE);
 	t1->SetBranchAddress("lepQ",&lepQ);
-	
+
 	t1->SetBranchAddress("njets",&njets);
 	t1->SetBranchAddress("jetPt",&jetPt);
 	t1->SetBranchAddress("jetEta",&jetEta);
@@ -108,9 +51,21 @@ int main() {
 	for (Long64_t jentry=0; jentry<100;jentry++)
  	{
 		t1->GetEntry(jentry);
-		std::cout<<" Event "<< jentry <<std::endl;	
+		std::cout<<" Event "<< jentry <<std::endl;
 
 		//FIX ME
+		for (int i = 0; i < nleps; i++){
+			Lepton lep(lepPt[i], lepEta[i], lepPhi[i], lepE[i]);
+			lep.setCharge(lepQ[i]);
+			lep.print();
+		}
+
+		for (int i = 0; i < njets; i++){
+			Jet jet(jetPt[i], jetEta[i], jetPhi[i], jetE[i]);
+			jet.setFlavor(jetHadronFlavour[i]);
+			jet.print();
+		}
+
 
 
 	} // Loop over all events
