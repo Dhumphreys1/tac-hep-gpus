@@ -1,3 +1,7 @@
+// Homework 3
+// Daniel Humphreys
+// Git repo: https://github.com/Dhumphreys1/tac-hep-gpus/tree/main/week4
+
 #include <stdio.h>
 #include <time.h>
 

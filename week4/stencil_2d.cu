@@ -34,11 +34,6 @@ __global__ void stencil_2d(int *in, int *out) {
   __syncthreads();
 	// Apply the stencil
 	int result = 0;
-  // for (int dx = -RADIUS; dx <= RADIUS; ++dx) {
-  //   for (int dy = -RADIUS; dy <= RADIUS; ++dy) {
-  //       result += temp[lindex_x + dx][lindex_y + dy];
-  //   }
-  // }
 	for (int offset = -RADIUS; offset <= RADIUS; ++offset) {
 		result += temp[lindex_x + offset][lindex_y];
 	}
