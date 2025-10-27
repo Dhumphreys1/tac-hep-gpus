@@ -12,33 +12,42 @@ using namespace std;
 __global__ void stencil_2d(int *in, int *out) {
 
 	__shared__ int temp[BLOCK_SIZE + 2 * RADIUS][BLOCK_SIZE + 2 * RADIUS];
-	int gindex_x = FIXME
-	int lindex_x = FIXME
-	int gindex_y = FIXME
-	int lindex_y = FIXME
+	int gindex_x = threadIdx.x + blockIdx.x * blockDim.x;
+	int lindex_x = threadIdx.x + RADIUS;
+	int gindex_y = threadIdx.y + blockIdx.y * blockDim.y;
+	int lindex_y = threadIdx.y + RADIUS;
 
 	// Read input elements into shared memory
 	int size = N + 2 * RADIUS;
-	temp[lindex_x][lindex_y] = FIXME
+	temp[lindex_x][lindex_y] = in[gindex_x*size + gindex_y];
 
 	if (threadIdx.x < RADIUS) {
-		FIXME
+		temp[lindex_x - RADIUS][lindex_y] = in[(gindex_x - RADIUS)*size + gindex_y];
+    temp[lindex_x + BLOCK_SIZE][lindex_y] = in[(gindex_x + BLOCK_SIZE)*size + gindex_y];
 	}
 
 	if (threadIdx.y < RADIUS ) {
-		FIXME
+		temp[lindex_x][lindex_y - RADIUS] = in[(gindex_x)*size + gindex_y - RADIUS];
+    temp[lindex_x][lindex_y + BLOCK_SIZE] = in[(gindex_x)*size + gindex_y + BLOCK_SIZE];
 	}
 
-
+  __syncthreads();
 	// Apply the stencil
 	int result = 0;
-	for (int offset = -RADIUS; offset <= RADIUS; offset++){
-		FIXME
+  // for (int dx = -RADIUS; dx <= RADIUS; ++dx) {
+  //   for (int dy = -RADIUS; dy <= RADIUS; ++dy) {
+  //       result += temp[lindex_x + dx][lindex_y + dy];
+  //   }
+  // }
+	for (int offset = -RADIUS; offset <= RADIUS; ++offset) {
+		result += temp[lindex_x + offset][lindex_y];
 	}
-
-	FIXME
+	for (int offset = -RADIUS; offset <= RADIUS; ++offset) {
+		result += temp[lindex_x][lindex_y + offset];
+	}
+  result -= temp[lindex_x][lindex_y]; //remove double count
 	// Store the result
-	out[gindex_y+size*gindex_x] = result;
+	out[gindex_y + size*gindex_x] = result;
 }
 
 
@@ -60,23 +69,27 @@ int main(void) {
 	out = (int *)malloc(size); fill_ints(out, (N + 2*RADIUS)*(N + 2*RADIUS));
 
 	// Alloc space for device copies
+  // This void casting threw me way off. Never did this in class.
+  // Turns out some compilers just do this implicitly.
+  // Honestly these exercises would be way better with less prewritten code.
 	cudaMalloc((void **)&d_in, size);
-	FIXME
+	cudaMalloc((void **)&d_out, size);
 
 	// Copy to device
 	cudaMemcpy(d_in, in, size, cudaMemcpyHostToDevice);
-	FIXME
+  cudaMemcpy(d_out, in, size, cudaMemcpyHostToDevice);
 
 	// Launch stencil_2d() kernel on GPU
 	int gridSize = (N + BLOCK_SIZE-1)/BLOCK_SIZE;
 	dim3 grid(gridSize, gridSize);
 	dim3 block(BLOCK_SIZE, BLOCK_SIZE);
-	// Launch the kernel 
+	// Launch the kernel
 	// Properly set memory address for first element on which the stencil will be applied
-	stencil_2d<<<grid,block>>>(d_in + RADIUS*(N + 2*RADIUS) + RADIUS , d_out + RADIUS*(N + 2*RADIUS) + RADIUS);
+  // A lot of confusing index magic
+  stencil_2d<<<grid,block>>>(d_in + RADIUS*(N + 2*RADIUS) + RADIUS , d_out + RADIUS*(N + 2*RADIUS) + RADIUS);
 
 	// Copy result back to host
-	FIXME
+	cudaMemcpy(out, d_out, size, cudaMemcpyDeviceToHost);
 
 	// Error Checking
 	for (int i = 0; i < N + 2 * RADIUS; ++i) {
@@ -93,7 +106,7 @@ int main(void) {
 					printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1);
 					return -1;
 				}
-			}		 
+			}
 			else {
 				if (out[j+i*(N + 2 * RADIUS)] != 1 + 4 * RADIUS) {
 					printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1 + 4*RADIUS);
