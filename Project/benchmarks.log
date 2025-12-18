@@ -1,0 +1,148 @@
+Running benchmarks - 20 iterations each
+========================================
+
+Running project_cxx (20 times):
+----------------------------
+CPU total execution time: 29152 ms
+CPU total execution time: 29422 ms
+CPU total execution time: 29720 ms
+CPU total execution time: 29564 ms
+CPU total execution time: 29719 ms
+CPU total execution time: 29679 ms
+CPU total execution time: 29057 ms
+CPU total execution time: 29433 ms
+CPU total execution time: 29063 ms
+CPU total execution time: 29067 ms
+CPU total execution time: 29724 ms
+CPU total execution time: 29436 ms
+CPU total execution time: 29785 ms
+CPU total execution time: 29522 ms
+CPU total execution time: 29303 ms
+CPU total execution time: 29545 ms
+CPU total execution time: 29239 ms
+CPU total execution time: 29767 ms
+CPU total execution time: 29412 ms
+CPU total execution time: 29309 ms
+main_cpu Average Time: 29445 ms
+
+Running slow.cu (20 times):
+----------------------------
+Slow total execution time: 850 ms
+Slow total execution time: 715 ms
+Slow total execution time: 715 ms
+Slow total execution time: 716 ms
+Slow total execution time: 718 ms
+Slow total execution time: 718 ms
+Slow total execution time: 725 ms
+Slow total execution time: 721 ms
+Slow total execution time: 712 ms
+Slow total execution time: 717 ms
+Slow total execution time: 720 ms
+Slow total execution time: 719 ms
+Slow total execution time: 718 ms
+Slow total execution time: 721 ms
+Slow total execution time: 722 ms
+Slow total execution time: 719 ms
+Slow total execution time: 812 ms
+Slow total execution time: 723 ms
+Slow total execution time: 715 ms
+Slow total execution time: 720 ms
+slow Average Time: 729 ms
+
+Running average.cu (20 times):
+----------------------------
+Average total execution time: 662 ms
+Average total execution time: 653 ms
+Average total execution time: 653 ms
+Average total execution time: 653 ms
+Average total execution time: 653 ms
+Average total execution time: 666 ms
+Average total execution time: 654 ms
+Average total execution time: 660 ms
+Average total execution time: 657 ms
+Average total execution time: 650 ms
+Average total execution time: 657 ms
+Average total execution time: 658 ms
+Average total execution time: 656 ms
+Average total execution time: 648 ms
+Average total execution time: 649 ms
+Average total execution time: 647 ms
+Average total execution time: 656 ms
+Average total execution time: 655 ms
+Average total execution time: 659 ms
+Average total execution time: 654 ms
+average Average Time: 655 ms
+
+Running fast.cu (20 times):
+----------------------------
+Fast total execution time: 569 ms
+Fast total execution time: 652 ms
+Fast total execution time: 570 ms
+Fast total execution time: 569 ms
+Fast total execution time: 569 ms
+Fast total execution time: 571 ms
+Fast total execution time: 573 ms
+Fast total execution time: 570 ms
+Fast total execution time: 569 ms
+Fast total execution time: 568 ms
+Fast total execution time: 576 ms
+Fast total execution time: 571 ms
+Fast total execution time: 568 ms
+Fast total execution time: 570 ms
+Fast total execution time: 575 ms
+Fast total execution time: 569 ms
+Fast total execution time: 570 ms
+Fast total execution time: 569 ms
+Fast total execution time: 581 ms
+Fast total execution time: 576 ms
+fast Average Time: 575 ms
+
+Running fastest.cu (20 times):
+----------------------------
+Fastest total execution time: 542 ms
+Fastest total execution time: 539 ms
+Fastest total execution time: 546 ms
+Fastest total execution time: 543 ms
+Fastest total execution time: 544 ms
+Fastest total execution time: 546 ms
+Fastest total execution time: 543 ms
+Fastest total execution time: 554 ms
+Fastest total execution time: 543 ms
+Fastest total execution time: 545 ms
+Fastest total execution time: 549 ms
+Fastest total execution time: 543 ms
+Fastest total execution time: 544 ms
+Fastest total execution time: 543 ms
+Fastest total execution time: 544 ms
+Fastest total execution time: 545 ms
+Fastest total execution time: 548 ms
+Fastest total execution time: 545 ms
+Fastest total execution time: 544 ms
+Fastest total execution time: 542 ms
+fastest Average Time: 544 ms
+
+Running fastest_alpaka.cpp (20 times):
+----------------------------
+Fastest Alpaka total execution time: 590 ms
+Fastest Alpaka total execution time: 580 ms
+Fastest Alpaka total execution time: 585 ms
+Fastest Alpaka total execution time: 576 ms
+Fastest Alpaka total execution time: 578 ms
+Fastest Alpaka total execution time: 579 ms
+Fastest Alpaka total execution time: 580 ms
+Fastest Alpaka total execution time: 579 ms
+Fastest Alpaka total execution time: 587 ms
+Fastest Alpaka total execution time: 579 ms
+Fastest Alpaka total execution time: 581 ms
+Fastest Alpaka total execution time: 579 ms
+Fastest Alpaka total execution time: 581 ms
+Fastest Alpaka total execution time: 584 ms
+Fastest Alpaka total execution time: 584 ms
+Fastest Alpaka total execution time: 580 ms
+Fastest Alpaka total execution time: 579 ms
+Fastest Alpaka total execution time: 581 ms
+Fastest Alpaka total execution time: 589 ms
+Fastest Alpaka total execution time: 580 ms
+fastest_alpaka Average Time: 581 ms
+
+Benchmark complete!

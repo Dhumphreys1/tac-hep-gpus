@@ -6,7 +6,7 @@
 #define RADIUS 3
 #define BLOCK_SIZE 32
 
-const int DSIZE = 4096;
+const int DSIZE = 2048;
 const int num_elements = DSIZE*DSIZE;
 const float A_val = 3.0f;
 const float B_val = 2.0f;
@@ -101,8 +101,14 @@ __global__ void matrix_mul_fast(const float *A, const float *B, float *C) {
 
         __syncthreads();
 
-        for(int j = 0; j < BLOCK_SIZE; j++){
-            temp += tileA[threadIdx.y][j] * tileB[j][threadIdx.x];
+        float a;
+        float b;
+
+        for (int j = 0; j < BLOCK_SIZE; j++) {
+            a = tileA[threadIdx.y][j];
+            b = tileB[j][threadIdx.x];
+            temp += a * b;
+            //temp += tileA[threadIdx.y][j] * tileB[j][threadIdx.x];
         }
     }
 

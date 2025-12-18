@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <time.h>
 #include <algorithm>
+#include <chrono>
 
 #define N 64
 #define RADIUS 3
 #define BLOCK_SIZE 32
 
-const int DSIZE = 5;
+const int DSIZE = 2048;
 const int num_elements = DSIZE*DSIZE;
 const float A_val = 3.0f;
 const float B_val = 2.0f;
@@ -56,6 +57,7 @@ void print_matrix(const float *matrix){
 }
 
 int main(void){
+	auto start_time = std::chrono::high_resolution_clock::now();
 	float *h_A, *h_B, *h_A_stenciled, *h_B_stenciled, *final_result;
 	h_A = (float*) malloc(num_elements*sizeof(float));
 	h_B = (float*) malloc(num_elements*sizeof(float));
@@ -84,6 +86,10 @@ int main(void){
 		printf("Final Result:\n");
 		print_matrix(final_result);
 	}
+
+	auto end_time = std::chrono::high_resolution_clock::now();
+	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
+	printf("CPU total execution time: %ld ms\n", duration.count());
 
 	return 0;
 }

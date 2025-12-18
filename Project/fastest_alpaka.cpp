@@ -6,7 +6,7 @@
 #define RADIUS 3
 #define BLOCK_SIZE 32
 
-const int DSIZE = 4096;
+const int DSIZE = 2048;
 const int num_elements = DSIZE*DSIZE;
 const float A_val = 3.0f;
 const float B_val = 2.0f;
