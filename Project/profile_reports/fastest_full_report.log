@@ -1,0 +1,78 @@
+Fastest total execution time: 821 ms
+Collecting data...
+Generating '/tmp/nsys-report-cb7b.qdstrm'
+[1/8] [0%                          ] fastest_profile.nsys-rep[1/8] [0%                          ] fastest_profile.nsys-rep[1/8] [10%                         ] fastest_profile.nsys-rep[1/8] [11%                         ] fastest_profile.nsys-rep[1/8] [=======39%                  ] fastest_profile.nsys-rep[1/8] [================68%         ] fastest_profile.nsys-rep[1/8] [================69%         ] fastest_profile.nsys-rep[1/8] [=================72%        ] fastest_profile.nsys-rep[1/8] [===================80%      ] fastest_profile.nsys-rep[1/8] [=====================89%    ] fastest_profile.nsys-rep[1/8] [========================100%] fastest_profile.nsys-rep[1/8] [========================100%] fastest_profile.nsys-rep
+[2/8] [0%                          ] fastest_profile.sqlite[2KProcessing 3182 events: 
+[2/8] [1%                          ] fastest_profile.sqlite[2/8] [2%                          ] fastest_profile.sqlite[2/8] [3%                          ] fastest_profile.sqlite[2/8] [4%                          ] fastest_profile.sqlite[2/8] [5%                          ] fastest_profile.sqlite[2/8] [6%                          ] fastest_profile.sqlite[2/8] [7%                          ] fastest_profile.sqlite[2/8] [8%                          ] fastest_profile.sqlite[2/8] [9%                          ] fastest_profile.sqlite[2/8] [10%                         ] fastest_profile.sqlite[2/8] [11%                         ] fastest_profile.sqlite[2/8] [12%                         ] fastest_profile.sqlite[2/8] [13%                         ] fastest_profile.sqlite[2/8] [14%                         ] fastest_profile.sqlite[2/8] [=15%                        ] fastest_profile.sqlite[2/8] [=16%                        ] fastest_profile.sqlite[2/8] [=17%                        ] fastest_profile.sqlite[2/8] [==18%                       ] fastest_profile.sqlite[2/8] [==19%                       ] fastest_profile.sqlite[2/8] [==20%                       ] fastest_profile.sqlite[2/8] [==21%                       ] fastest_profile.sqlite[2/8] [===22%                      ] fastest_profile.sqlite[2/8] [===23%                      ] fastest_profile.sqlite[2/8] [===24%                      ] fastest_profile.sqlite[2/8] [====25%                     ] fastest_profile.sqlite[2/8] [====26%                     ] fastest_profile.sqlite[2/8] [====27%                     ] fastest_profile.sqlite[2/8] [====28%                     ] fastest_profile.sqlite[2/8] [=====29%                    ] fastest_profile.sqlite[2/8] [=====30%                    ] fastest_profile.sqlite[2/8] [=====31%                    ] fastest_profile.sqlite[2/8] [=====32%                    ] fastest_profile.sqlite[2/8] [======33%                   ] fastest_profile.sqlite[2/8] [======34%                   ] fastest_profile.sqlite[2/8] [======35%                   ] fastest_profile.sqlite[2/8] [=======36%                  ] fastest_profile.sqlite[2/8] [=======37%                  ] fastest_profile.sqlite[2/8] [=======38%                  ] fastest_profile.sqlite[2/8] [=======39%                  ] fastest_profile.sqlite[2/8] [========40%                 ] fastest_profile.sqlite[2/8] [========41%                 ] fastest_profile.sqlite[2/8] [========42%                 ] fastest_profile.sqlite[2/8] [=========43%                ] fastest_profile.sqlite[2/8] [=========44%                ] fastest_profile.sqlite[2/8] [=========45%                ] fastest_profile.sqlite[2/8] [=========46%                ] fastest_profile.sqlite[2/8] [==========47%               ] fastest_profile.sqlite[2/8] [==========48%               ] fastest_profile.sqlite[2/8] [==========49%               ] fastest_profile.sqlite[2/8] [===========50%              ] fastest_profile.sqlite[2/8] [===========51%              ] fastest_profile.sqlite[2/8] [===========52%              ] fastest_profile.sqlite[2/8] [===========53%              ] fastest_profile.sqlite[2/8] [============54%             ] fastest_profile.sqlite[2/8] [============55%             ] fastest_profile.sqlite[2/8] [============56%             ] fastest_profile.sqlite[2/8] [============57%             ] fastest_profile.sqlite[2/8] [=============58%            ] fastest_profile.sqlite[2/8] [=============59%            ] fastest_profile.sqlite[2/8] [=============60%            ] fastest_profile.sqlite[2/8] [==============61%           ] fastest_profile.sqlite[2/8] [==============62%           ] fastest_profile.sqlite[2/8] [==============63%           ] fastest_profile.sqlite[2/8] [==============64%           ] fastest_profile.sqlite[2/8] [===============65%          ] fastest_profile.sqlite[2/8] [===============66%          ] fastest_profile.sqlite[2/8] [===============67%          ] fastest_profile.sqlite[2/8] [================68%         ] fastest_profile.sqlite[2/8] [================69%         ] fastest_profile.sqlite[2/8] [================70%         ] fastest_profile.sqlite[2/8] [================71%         ] fastest_profile.sqlite[2/8] [=================72%        ] fastest_profile.sqlite[2/8] [=================73%        ] fastest_profile.sqlite[2/8] [=================74%        ] fastest_profile.sqlite[2/8] [==================75%       ] fastest_profile.sqlite[2/8] [==================76%       ] fastest_profile.sqlite[2/8] [==================77%       ] fastest_profile.sqlite[2/8] [==================78%       ] fastest_profile.sqlite[2/8] [===================79%      ] fastest_profile.sqlite[2/8] [===================80%      ] fastest_profile.sqlite[2/8] [===================81%      ] fastest_profile.sqlite[2/8] [===================82%      ] fastest_profile.sqlite[2/8] [====================83%     ] fastest_profile.sqlite[2/8] [====================84%     ] fastest_profile.sqlite[2/8] [====================85%     ] fastest_profile.sqlite[2/8] [=====================86%    ] fastest_profile.sqlite[2/8] [=====================87%    ] fastest_profile.sqlite[2/8] [=====================88%    ] fastest_profile.sqlite[2/8] [=====================89%    ] fastest_profile.sqlite[2/8] [======================90%   ] fastest_profile.sqlite[2/8] [======================91%   ] fastest_profile.sqlite[2/8] [======================92%   ] fastest_profile.sqlite[2/8] [=======================93%  ] fastest_profile.sqlite[2/8] [=======================94%  ] fastest_profile.sqlite[2/8] [=======================95%  ] fastest_profile.sqlite[2/8] [=======================96%  ] fastest_profile.sqlite[2/8] [========================97% ] fastest_profile.sqlite[2/8] [========================98% ] fastest_profile.sqlite[2/8] [========================99% ] fastest_profile.sqlite[2/8] [========================100%] fastest_profile.sqlite[2/8] [========================100%] fastest_profile.sqlite
+SKIPPED: /afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/fastest_profile.sqlite does not contain NV Tools Extension (NVTX) data.
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)    Min (ns)   Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  ------------  --------  -----------  ------------  ----------------------
+     80.3      954,744,489         58  16,461,111.9  10,098,468.0     2,940  130,384,481  25,330,188.5  poll                  
+     18.7      222,872,603        657     339,227.7      29,570.0     1,270   33,469,912   1,472,889.0  ioctl                 
+      0.6        7,121,663         31     229,731.1      16,971.0    10,880    5,567,121     993,229.5  mmap64                
+      0.1          870,987         10      87,098.7      84,061.0    72,072      116,452      13,524.6  sem_timedwait         
+      0.1          702,844          2     351,422.0     351,422.0   264,185      438,659     123,371.7  pthread_create        
+      0.0          513,523         21      24,453.5      10,171.0     3,880      265,845      55,803.0  mmap                  
+      0.0          490,368         56       8,756.6       7,375.0     4,480       29,620       3,628.0  open64                
+      0.0          489,566         35      13,987.6       7,820.0     3,080       62,541      13,005.4  fopen                 
+      0.0          341,804         28      12,207.3      13,510.0     1,950       28,910       6,190.9  fclose                
+      0.0          259,555          1     259,555.0     259,555.0   259,555      259,555           0.0  pthread_cond_wait     
+      0.0          138,513          1     138,513.0     138,513.0   138,513      138,513           0.0  fgets                 
+      0.0          111,661         10      11,166.1      10,160.0     8,310       16,770       2,810.5  munmap                
+      0.0           56,971          6       9,495.2       8,320.0     4,260       16,991       4,399.5  open                  
+      0.0           47,502         13       3,654.0       2,840.0     1,060       10,051       2,576.5  close                 
+      0.0           45,993         15       3,066.2       2,970.0     2,161        5,150         676.8  read                  
+      0.0           44,861         12       3,738.4       3,515.0     1,110        6,560       1,652.6  write                 
+      0.0           37,642          3      12,547.3      13,851.0     7,371       16,420       4,663.2  pipe2                 
+      0.0           27,681          2      13,840.5      13,840.5     6,620       21,061      10,211.3  socket                
+      0.0           26,700          1      26,700.0      26,700.0    26,700       26,700           0.0  connect               
+      0.0           14,940          1      14,940.0      14,940.0    14,940       14,940           0.0  fflush                
+      0.0            7,620          2       3,810.0       3,810.0     1,090        6,530       3,846.7  pthread_cond_broadcast
+      0.0            6,021          4       1,505.3       1,430.0     1,270        1,891         268.5  fcntl                 
+      0.0            4,780          2       2,390.0       2,390.0     1,530        3,250       1,216.2  fwrite                
+      0.0            1,910          1       1,910.0       1,910.0     1,910        1,910           0.0  bind                  
+      0.0            1,590          1       1,590.0       1,590.0     1,590        1,590           0.0  listen                
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)    Max (ns)     StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  -----------  ---------  -----------  -------------  ----------------------
+     47.9      226,095,975          5  45,219,195.0  1,931,999.0      1,790  222,200,867   98,940,529.8  cudaStreamSynchronize 
+     43.9      207,224,396          3  69,074,798.7      3,980.0      3,740  207,216,676  119,634,375.1  cudaStreamCreate      
+      7.7       36,370,332          6   6,061,722.0  5,707,375.0  5,277,946    7,238,246      896,228.1  cudaMemcpyAsync       
+      0.3        1,565,721          2     782,860.5    782,860.5    403,328    1,162,393      536,740.0  cudaFree              
+      0.1          703,694          4     175,923.5    161,818.5    156,063      223,994       32,219.1  cudaMalloc            
+      0.1          254,675          3      84,891.7     25,990.0      7,441      221,244      118,448.2  cudaLaunchKernel      
+      0.0          154,913          1     154,913.0    154,913.0    154,913      154,913            0.0  cuLibraryLoadData     
+      0.0           78,782          1      78,782.0     78,782.0     78,782       78,782            0.0  cudaMallocManaged     
+      0.0            1,590          3         530.0        280.0        160        1,150          540.3  cuKernelGetName       
+      0.0            1,160          1       1,160.0      1,160.0      1,160        1,160            0.0  cuModuleGetLoadingMode
+      0.0              800          2         400.0        400.0        310          490          127.3  cuLibraryGetKernel    
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances    Avg (ns)       Med (ns)      Min (ns)     Max (ns)    StdDev (ns)                           Name                         
+ --------  ---------------  ---------  -------------  -------------  -----------  -----------  -----------  ------------------------------------------------------
+     98.4      236,587,132          1  236,587,132.0  236,587,132.0  236,587,132  236,587,132          0.0  matrix_mul_fast(const float *, const float *, float *)
+      1.6        3,903,907          2    1,951,953.5    1,951,953.5    1,938,818    1,965,089     18,576.4  stencil_2d_fast(const float *, float *)               
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)           Operation          
+ --------  ---------------  -----  -----------  -----------  ---------  ---------  -----------  ----------------------------
+     60.8       21,934,666      4  5,483,666.5  5,483,418.0  5,267,566  5,700,264    242,210.0  [CUDA memcpy Host-to-Device]
+     39.2       14,120,517      2  7,060,258.5  7,060,258.5  7,027,059  7,093,458     46,951.2  [CUDA memcpy Device-to-Host]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    268.435      4    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Host-to-Device]
+    134.218      2    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Device-to-Host]
+
+Generated:
+	/afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/fastest_profile.nsys-rep
+	/afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/fastest_profile.sqlite

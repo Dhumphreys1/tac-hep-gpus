@@ -1,0 +1,76 @@
+Average total execution time: 896 ms
+Collecting data...
+Generating '/tmp/nsys-report-f5f2.qdstrm'
+[1/8] [0%                          ] average_profile.nsys-rep[1/8] [0%                          ] average_profile.nsys-rep[1/8] [11%                         ] average_profile.nsys-rep[1/8] [=======39%                  ] average_profile.nsys-rep[1/8] [================68%         ] average_profile.nsys-rep[1/8] [================69%         ] average_profile.nsys-rep[1/8] [=================72%        ] average_profile.nsys-rep[1/8] [===================80%      ] average_profile.nsys-rep[1/8] [======================90%   ] average_profile.nsys-rep[1/8] [========================100%] average_profile.nsys-rep[1/8] [========================100%] average_profile.nsys-rep
+[2/8] [0%                          ] average_profile.sqlite[2KProcessing 3238 events: 
+[2/8] [1%                          ] average_profile.sqlite[2/8] [2%                          ] average_profile.sqlite[2/8] [3%                          ] average_profile.sqlite[2/8] [4%                          ] average_profile.sqlite[2/8] [5%                          ] average_profile.sqlite[2/8] [6%                          ] average_profile.sqlite[2/8] [7%                          ] average_profile.sqlite[2/8] [8%                          ] average_profile.sqlite[2/8] [9%                          ] average_profile.sqlite[2/8] [10%                         ] average_profile.sqlite[2/8] [11%                         ] average_profile.sqlite[2/8] [12%                         ] average_profile.sqlite[2/8] [13%                         ] average_profile.sqlite[2/8] [14%                         ] average_profile.sqlite[2/8] [=15%                        ] average_profile.sqlite[2/8] [=16%                        ] average_profile.sqlite[2/8] [=17%                        ] average_profile.sqlite[2/8] [==18%                       ] average_profile.sqlite[2/8] [==19%                       ] average_profile.sqlite[2/8] [==20%                       ] average_profile.sqlite[2/8] [==21%                       ] average_profile.sqlite[2/8] [===22%                      ] average_profile.sqlite[2/8] [===23%                      ] average_profile.sqlite[2/8] [===24%                      ] average_profile.sqlite[2/8] [====25%                     ] average_profile.sqlite[2/8] [====26%                     ] average_profile.sqlite[2/8] [====27%                     ] average_profile.sqlite[2/8] [====28%                     ] average_profile.sqlite[2/8] [=====29%                    ] average_profile.sqlite[2/8] [=====30%                    ] average_profile.sqlite[2/8] [=====31%                    ] average_profile.sqlite[2/8] [=====32%                    ] average_profile.sqlite[2/8] [======33%                   ] average_profile.sqlite[2/8] [======34%                   ] average_profile.sqlite[2/8] [======35%                   ] average_profile.sqlite[2/8] [=======36%                  ] average_profile.sqlite[2/8] [=======37%                  ] average_profile.sqlite[2/8] [=======38%                  ] average_profile.sqlite[2/8] [=======39%                  ] average_profile.sqlite[2/8] [========40%                 ] average_profile.sqlite[2/8] [========41%                 ] average_profile.sqlite[2/8] [========42%                 ] average_profile.sqlite[2/8] [=========43%                ] average_profile.sqlite[2/8] [=========44%                ] average_profile.sqlite[2/8] [=========45%                ] average_profile.sqlite[2/8] [=========46%                ] average_profile.sqlite[2/8] [==========47%               ] average_profile.sqlite[2/8] [==========48%               ] average_profile.sqlite[2/8] [==========49%               ] average_profile.sqlite[2/8] [===========50%              ] average_profile.sqlite[2/8] [===========51%              ] average_profile.sqlite[2/8] [===========52%              ] average_profile.sqlite[2/8] [===========53%              ] average_profile.sqlite[2/8] [============54%             ] average_profile.sqlite[2/8] [============55%             ] average_profile.sqlite[2/8] [============56%             ] average_profile.sqlite[2/8] [============57%             ] average_profile.sqlite[2/8] [=============58%            ] average_profile.sqlite[2/8] [=============59%            ] average_profile.sqlite[2/8] [=============60%            ] average_profile.sqlite[2/8] [==============61%           ] average_profile.sqlite[2/8] [==============62%           ] average_profile.sqlite[2/8] [==============63%           ] average_profile.sqlite[2/8] [==============64%           ] average_profile.sqlite[2/8] [===============65%          ] average_profile.sqlite[2/8] [===============66%          ] average_profile.sqlite[2/8] [===============67%          ] average_profile.sqlite[2/8] [================68%         ] average_profile.sqlite[2/8] [================69%         ] average_profile.sqlite[2/8] [================70%         ] average_profile.sqlite[2/8] [================71%         ] average_profile.sqlite[2/8] [=================72%        ] average_profile.sqlite[2/8] [=================73%        ] average_profile.sqlite[2/8] [=================74%        ] average_profile.sqlite[2/8] [==================75%       ] average_profile.sqlite[2/8] [==================76%       ] average_profile.sqlite[2/8] [==================77%       ] average_profile.sqlite[2/8] [==================78%       ] average_profile.sqlite[2/8] [===================79%      ] average_profile.sqlite[2/8] [===================80%      ] average_profile.sqlite[2/8] [===================81%      ] average_profile.sqlite[2/8] [===================82%      ] average_profile.sqlite[2/8] [====================83%     ] average_profile.sqlite[2/8] [====================84%     ] average_profile.sqlite[2/8] [====================85%     ] average_profile.sqlite[2/8] [=====================86%    ] average_profile.sqlite[2/8] [=====================87%    ] average_profile.sqlite[2/8] [=====================88%    ] average_profile.sqlite[2/8] [=====================89%    ] average_profile.sqlite[2/8] [======================90%   ] average_profile.sqlite[2/8] [======================91%   ] average_profile.sqlite[2/8] [======================92%   ] average_profile.sqlite[2/8] [=======================93%  ] average_profile.sqlite[2/8] [=======================94%  ] average_profile.sqlite[2/8] [=======================95%  ] average_profile.sqlite[2/8] [=======================96%  ] average_profile.sqlite[2/8] [========================97% ] average_profile.sqlite[2/8] [========================98% ] average_profile.sqlite[2/8] [========================99% ] average_profile.sqlite[2/8] [========================100%] average_profile.sqlite[2/8] [========================100%] average_profile.sqlite
+SKIPPED: /afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/average_profile.sqlite does not contain NV Tools Extension (NVTX) data.
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)    Min (ns)   Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  ------------  --------  -----------  ------------  ----------------------
+     82.3    1,076,138,240         61  17,641,610.5  10,075,883.0     2,140  132,222,688  27,070,101.7  poll                  
+     16.8      220,065,025        658     334,445.3      29,826.0     1,250   32,135,616   1,403,550.4  ioctl                 
+      0.5        7,128,392         31     229,948.1      16,460.0     9,020    5,577,973     995,194.5  mmap64                
+      0.1        1,089,102         10     108,910.2      43,450.5    25,521      687,754     204,447.8  sem_timedwait         
+      0.0          600,371          2     300,185.5     300,185.5   264,345      336,026      50,686.1  pthread_create        
+      0.0          489,851         56       8,747.3       7,700.0     4,450       30,190       3,482.0  open64                
+      0.0          480,298         20      24,014.9       7,465.0     3,851      265,395      57,436.4  mmap                  
+      0.0          479,942         35      13,712.6       7,870.0     3,560       70,831      13,942.9  fopen                 
+      0.0          346,323         28      12,368.7      13,640.0     1,990       29,150       6,261.8  fclose                
+      0.0          138,452          1     138,452.0     138,452.0   138,452      138,452           0.0  fgets                 
+      0.0          114,512         11      10,410.2      11,280.0     7,970       13,700       2,170.0  munmap                
+      0.0           87,842          1      87,842.0      87,842.0    87,842       87,842           0.0  pthread_cond_wait     
+      0.0           55,450          6       9,241.7       8,490.0     5,420       15,030       3,393.7  open                  
+      0.0           43,950         11       3,995.5       3,050.0     1,390        9,830       2,597.5  close                 
+      0.0           43,941         12       3,661.8       3,415.5     1,100        6,480       1,677.0  write                 
+      0.0           41,591          3      13,863.7      16,701.0     7,860       17,030       5,201.9  pipe2                 
+      0.0           32,862          2      16,431.0      16,431.0     9,901       22,961       9,234.8  socket                
+      0.0           26,271          1      26,271.0      26,271.0    26,271       26,271           0.0  connect               
+      0.0           25,000         11       2,272.7       1,850.0     1,230        4,750       1,108.0  read                  
+      0.0           13,200          1      13,200.0      13,200.0    13,200       13,200           0.0  fflush                
+      0.0            6,910          5       1,382.0       1,170.0     1,060        2,070         414.8  fcntl                 
+      0.0            5,140          2       2,570.0       2,570.0     1,610        3,530       1,357.6  fwrite                
+      0.0            2,920          1       2,920.0       2,920.0     2,920        2,920           0.0  pthread_cond_broadcast
+      0.0            2,180          1       2,180.0       2,180.0     2,180        2,180           0.0  bind                  
+      0.0            1,290          1       1,290.0       1,290.0     1,290        1,290           0.0  listen                
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)       Med (ns)      Min (ns)     Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  -------------  -------------  -----------  -----------  ------------  ----------------------
+     49.1      251,007,877          1  251,007,877.0  251,007,877.0  251,007,877  251,007,877           0.0  cudaDeviceSynchronize 
+     40.4      206,587,344          5   41,317,468.8      166,863.0      159,013  205,920,691  92,015,998.8  cudaMalloc            
+      9.9       50,538,475          8    6,317,309.4    5,750,380.0    5,362,748    8,637,844   1,199,064.9  cudaMemcpy            
+      0.5        2,624,952          3      874,984.0    1,089,191.0      378,397    1,157,364     431,405.7  cudaFree              
+      0.1          257,285          3       85,761.7       22,021.0        6,630      228,634     123,970.2  cudaLaunchKernel      
+      0.0          132,832          1      132,832.0      132,832.0      132,832      132,832           0.0  cuLibraryLoadData     
+      0.0            1,430          3          476.7          360.0          150          920         398.0  cuKernelGetName       
+      0.0            1,220          1        1,220.0        1,220.0        1,220        1,220           0.0  cuModuleGetLoadingMode
+      0.0            1,130          2          565.0          565.0          310          820         360.6  cuLibraryGetKernel    
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances    Avg (ns)       Med (ns)      Min (ns)     Max (ns)    StdDev (ns)                           Name                         
+ --------  ---------------  ---------  -------------  -------------  -----------  -----------  -----------  ------------------------------------------------------
+     99.0      248,509,595          1  248,509,595.0  248,509,595.0  248,509,595  248,509,595          0.0  matrix_mul_slow(const float *, const float *, float *)
+      1.0        2,521,464          2    1,260,732.0    1,260,732.0    1,259,788    1,261,676      1,335.0  stencil_2d_slow(const float *, float *)               
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)           Operation          
+ --------  ---------------  -----  -----------  -----------  ---------  ---------  -----------  ----------------------------
+     54.8       27,297,263      5  5,459,452.6  5,313,868.0  5,291,276  5,716,901    218,059.2  [CUDA memcpy Host-to-Device]
+     45.2       22,496,476      3  7,498,825.3  7,025,521.0  6,995,153  8,475,802    846,222.8  [CUDA memcpy Device-to-Host]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    335.544      5    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Host-to-Device]
+    201.327      3    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Device-to-Host]
+
+Generated:
+	/afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/average_profile.nsys-rep
+	/afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/average_profile.sqlite

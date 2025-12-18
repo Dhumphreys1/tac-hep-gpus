@@ -1,0 +1,79 @@
+Fastest Alpaka total execution time: 888 ms
+Collecting data...
+Generating '/tmp/nsys-report-8f02.qdstrm'
+[1/8] [0%                          ] fastest_alpaka_profile.nsys-rep[1/8] [0%                          ] fastest_alpaka_profile.nsys-rep[1/8] [10%                         ] fastest_alpaka_profile.nsys-rep[1/8] [11%                         ] fastest_alpaka_profile.nsys-rep[1/8] [=======39%                  ] fastest_alpaka_profile.nsys-rep[1/8] [================68%         ] fastest_alpaka_profile.nsys-rep[1/8] [================69%         ] fastest_alpaka_profile.nsys-rep[1/8] [================70%         ] fastest_alpaka_profile.nsys-rep[1/8] [===================79%      ] fastest_alpaka_profile.nsys-rep[1/8] [=====================89%    ] fastest_alpaka_profile.nsys-rep[1/8] [========================100%] fastest_alpaka_profile.nsys-rep[1/8] [========================100%] fastest_alpaka_profile.nsys-rep
+[2/8] [0%                          ] fastest_alpaka_profile.sqlite[2KProcessing 3291 events: 
+[2/8] [1%                          ] fastest_alpaka_profile.sqlite[2/8] [2%                          ] fastest_alpaka_profile.sqlite[2/8] [3%                          ] fastest_alpaka_profile.sqlite[2/8] [4%                          ] fastest_alpaka_profile.sqlite[2/8] [5%                          ] fastest_alpaka_profile.sqlite[2/8] [6%                          ] fastest_alpaka_profile.sqlite[2/8] [7%                          ] fastest_alpaka_profile.sqlite[2/8] [8%                          ] fastest_alpaka_profile.sqlite[2/8] [9%                          ] fastest_alpaka_profile.sqlite[2/8] [10%                         ] fastest_alpaka_profile.sqlite[2/8] [11%                         ] fastest_alpaka_profile.sqlite[2/8] [12%                         ] fastest_alpaka_profile.sqlite[2/8] [13%                         ] fastest_alpaka_profile.sqlite[2/8] [14%                         ] fastest_alpaka_profile.sqlite[2/8] [=15%                        ] fastest_alpaka_profile.sqlite[2/8] [=16%                        ] fastest_alpaka_profile.sqlite[2/8] [=17%                        ] fastest_alpaka_profile.sqlite[2/8] [==18%                       ] fastest_alpaka_profile.sqlite[2/8] [==19%                       ] fastest_alpaka_profile.sqlite[2/8] [==20%                       ] fastest_alpaka_profile.sqlite[2/8] [==21%                       ] fastest_alpaka_profile.sqlite[2/8] [===22%                      ] fastest_alpaka_profile.sqlite[2/8] [===23%                      ] fastest_alpaka_profile.sqlite[2/8] [===24%                      ] fastest_alpaka_profile.sqlite[2/8] [====25%                     ] fastest_alpaka_profile.sqlite[2/8] [====26%                     ] fastest_alpaka_profile.sqlite[2/8] [====27%                     ] fastest_alpaka_profile.sqlite[2/8] [====28%                     ] fastest_alpaka_profile.sqlite[2/8] [=====29%                    ] fastest_alpaka_profile.sqlite[2/8] [=====30%                    ] fastest_alpaka_profile.sqlite[2/8] [=====31%                    ] fastest_alpaka_profile.sqlite[2/8] [=====32%                    ] fastest_alpaka_profile.sqlite[2/8] [======33%                   ] fastest_alpaka_profile.sqlite[2/8] [======34%                   ] fastest_alpaka_profile.sqlite[2/8] [======35%                   ] fastest_alpaka_profile.sqlite[2/8] [=======36%                  ] fastest_alpaka_profile.sqlite[2/8] [=======37%                  ] fastest_alpaka_profile.sqlite[2/8] [=======38%                  ] fastest_alpaka_profile.sqlite[2/8] [=======39%                  ] fastest_alpaka_profile.sqlite[2/8] [========40%                 ] fastest_alpaka_profile.sqlite[2/8] [========41%                 ] fastest_alpaka_profile.sqlite[2/8] [========42%                 ] fastest_alpaka_profile.sqlite[2/8] [=========43%                ] fastest_alpaka_profile.sqlite[2/8] [=========44%                ] fastest_alpaka_profile.sqlite[2/8] [=========45%                ] fastest_alpaka_profile.sqlite[2/8] [=========46%                ] fastest_alpaka_profile.sqlite[2/8] [==========47%               ] fastest_alpaka_profile.sqlite[2/8] [==========48%               ] fastest_alpaka_profile.sqlite[2/8] [==========49%               ] fastest_alpaka_profile.sqlite[2/8] [===========50%              ] fastest_alpaka_profile.sqlite[2/8] [===========51%              ] fastest_alpaka_profile.sqlite[2/8] [===========52%              ] fastest_alpaka_profile.sqlite[2/8] [===========53%              ] fastest_alpaka_profile.sqlite[2/8] [============54%             ] fastest_alpaka_profile.sqlite[2/8] [============55%             ] fastest_alpaka_profile.sqlite[2/8] [============56%             ] fastest_alpaka_profile.sqlite[2/8] [============57%             ] fastest_alpaka_profile.sqlite[2/8] [=============58%            ] fastest_alpaka_profile.sqlite[2/8] [=============59%            ] fastest_alpaka_profile.sqlite[2/8] [=============60%            ] fastest_alpaka_profile.sqlite[2/8] [==============61%           ] fastest_alpaka_profile.sqlite[2/8] [==============62%           ] fastest_alpaka_profile.sqlite[2/8] [==============63%           ] fastest_alpaka_profile.sqlite[2/8] [==============64%           ] fastest_alpaka_profile.sqlite[2/8] [===============65%          ] fastest_alpaka_profile.sqlite[2/8] [===============66%          ] fastest_alpaka_profile.sqlite[2/8] [===============67%          ] fastest_alpaka_profile.sqlite[2/8] [================68%         ] fastest_alpaka_profile.sqlite[2/8] [================69%         ] fastest_alpaka_profile.sqlite[2/8] [================70%         ] fastest_alpaka_profile.sqlite[2/8] [================71%         ] fastest_alpaka_profile.sqlite[2/8] [=================72%        ] fastest_alpaka_profile.sqlite[2/8] [=================73%        ] fastest_alpaka_profile.sqlite[2/8] [=================74%        ] fastest_alpaka_profile.sqlite[2/8] [==================75%       ] fastest_alpaka_profile.sqlite[2/8] [==================76%       ] fastest_alpaka_profile.sqlite[2/8] [==================77%       ] fastest_alpaka_profile.sqlite[2/8] [==================78%       ] fastest_alpaka_profile.sqlite[2/8] [===================79%      ] fastest_alpaka_profile.sqlite[2/8] [===================80%      ] fastest_alpaka_profile.sqlite[2/8] [===================81%      ] fastest_alpaka_profile.sqlite[2/8] [===================82%      ] fastest_alpaka_profile.sqlite[2/8] [====================83%     ] fastest_alpaka_profile.sqlite[2/8] [====================84%     ] fastest_alpaka_profile.sqlite[2/8] [====================85%     ] fastest_alpaka_profile.sqlite[2/8] [=====================86%    ] fastest_alpaka_profile.sqlite[2/8] [=====================87%    ] fastest_alpaka_profile.sqlite[2/8] [=====================88%    ] fastest_alpaka_profile.sqlite[2/8] [=====================89%    ] fastest_alpaka_profile.sqlite[2/8] [======================90%   ] fastest_alpaka_profile.sqlite[2/8] [======================91%   ] fastest_alpaka_profile.sqlite[2/8] [======================92%   ] fastest_alpaka_profile.sqlite[2/8] [=======================93%  ] fastest_alpaka_profile.sqlite[2/8] [=======================94%  ] fastest_alpaka_profile.sqlite[2/8] [=======================95%  ] fastest_alpaka_profile.sqlite[2/8] [=======================96%  ] fastest_alpaka_profile.sqlite[2/8] [========================97% ] fastest_alpaka_profile.sqlite[2/8] [========================98% ] fastest_alpaka_profile.sqlite[2/8] [========================99% ] fastest_alpaka_profile.sqlite[2/8] [========================100%] fastest_alpaka_profile.sqlite[2/8] [========================100%] fastest_alpaka_profile.sqlite
+SKIPPED: /afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/fastest_alpaka_profile.sqlite does not contain NV Tools Extension (NVTX) data.
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)    Min (ns)   Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  ------------  --------  -----------  ------------  ----------------------
+     85.2    1,466,301,934         81  18,102,493.0  10,099,586.0     2,800  138,382,702  27,357,448.2  poll                  
+     14.1      242,930,372        675     359,896.8      29,631.0     1,300   32,418,372   1,506,265.8  ioctl                 
+      0.4        6,991,150         31     225,521.0      17,121.0     9,120    5,469,077     975,718.9  mmap64                
+      0.1        1,716,797         10     171,679.7      79,497.0    56,272    1,013,082     296,016.9  sem_timedwait         
+      0.0          508,000          2     254,000.0     254,000.0   250,365      257,635       5,140.7  pthread_create        
+      0.0          501,567         20      25,078.3       8,405.0     3,840      253,915      55,072.4  mmap                  
+      0.0          479,383         56       8,560.4       7,395.0     4,291       29,081       3,444.9  open64                
+      0.0          434,418         35      12,411.9       7,080.0     2,950       57,091      11,845.6  fopen                 
+      0.0          338,425         28      12,086.6      13,485.5     1,970       28,261       6,208.4  fclose                
+      0.0          197,784          1     197,784.0     197,784.0   197,784      197,784           0.0  pthread_cond_wait     
+      0.0          135,023         14       9,644.5       8,270.0     5,661       20,460       3,717.6  munmap                
+      0.0          131,543          1     131,543.0     131,543.0   131,543      131,543           0.0  fgets                 
+      0.0           54,621          6       9,103.5       8,180.0     3,990       15,580       4,024.1  open                  
+      0.0           44,041         12       3,670.1       3,495.0     1,040        6,410       1,473.6  write                 
+      0.0           43,380         11       3,943.6       2,900.0     1,550        9,510       2,424.9  close                 
+      0.0           41,342         15       2,756.1       2,870.0     1,520        4,720         813.2  read                  
+      0.0           30,030          3      10,010.0      11,230.0     5,910       12,890       3,646.4  pipe2                 
+      0.0           28,811          2      14,405.5      14,405.5     7,441       21,370       9,849.3  socket                
+      0.0           25,150          1      25,150.0      25,150.0    25,150       25,150           0.0  connect               
+      0.0           11,251          1      11,251.0      11,251.0    11,251       11,251           0.0  fflush                
+      0.0            5,670          4       1,417.5       1,280.0     1,040        2,070         472.9  fcntl                 
+      0.0            5,450          1       5,450.0       5,450.0     5,450        5,450           0.0  pthread_cond_broadcast
+      0.0            4,950          2       2,475.0       2,475.0     1,340        3,610       1,605.1  fwrite                
+      0.0            1,770          1       1,770.0       1,770.0     1,770        1,770           0.0  bind                  
+      0.0            1,400          1       1,400.0       1,400.0     1,400        1,400           0.0  listen                
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)    Max (ns)    StdDev (ns)             Name           
+ --------  ---------------  ---------  ------------  -----------  ---------  -----------  ------------  -------------------------
+     59.3      249,602,663         18  13,866,814.6      3,540.0      1,010  245,313,642  57,764,912.4  cudaStreamSynchronize    
+     38.7      162,750,042          7  23,250,006.0  6,240,653.0  5,270,373   63,305,631  27,323,219.1  cudaMemcpyAsync          
+      1.4        5,733,343          5   1,146,668.6  1,116,004.0    285,086    2,110,935     647,478.5  cudaFree                 
+      0.3        1,279,197          5     255,839.4    172,583.0    169,373      534,532     158,054.2  cudaMalloc               
+      0.2          780,446          3     260,148.7     25,511.0      8,430      746,505     421,283.5  cudaLaunchKernel         
+      0.1          389,318          1     389,318.0    389,318.0    389,318      389,318           0.0  cuLibraryLoadData        
+      0.0           42,681          4      10,670.3      9,010.0      4,240       20,421       7,813.7  cudaStreamDestroy        
+      0.0           32,360          1      32,360.0     32,360.0     32,360       32,360           0.0  cudaStreamCreate         
+      0.0           11,980          3       3,993.3      4,110.0      3,520        4,350         427.1  cudaStreamCreateWithFlags
+      0.0            1,890          2         945.0        945.0        820        1,070         176.8  cuLibraryGetKernel       
+      0.0            1,510          3         503.3        440.0        250          820         290.2  cuKernelGetName          
+      0.0            1,180          1       1,180.0      1,180.0      1,180        1,180           0.0  cuModuleGetLoadingMode   
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances    Avg (ns)       Med (ns)      Min (ns)     Max (ns)    StdDev (ns)                                                  Name                                                
+ --------  ---------------  ---------  -------------  -------------  -----------  -----------  -----------  ----------------------------------------------------------------------------------------------------
+     98.4      245,306,150          1  245,306,150.0  245,306,150.0  245,306,150  245,306,150          0.0  void alpaka::detail::gpuKernel<MatrixMulKernel, alpaka::AccGpuUniformCudaHipRt<alpaka::ApiCudaRt, s…
+      1.6        3,927,494          2    1,963,747.0    1,963,747.0    1,949,027    1,978,467     20,817.2  void alpaka::detail::gpuKernel<Stencil2DKernel, alpaka::AccGpuUniformCudaHipRt<alpaka::ApiCudaRt, s…
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count    Avg (ns)      Med (ns)     Min (ns)    Max (ns)   StdDev (ns)            Operation          
+ --------  ---------------  -----  ------------  ------------  ----------  ----------  ------------  ----------------------------
+     85.2      134,082,554      3  44,694,184.7  60,991,607.0  11,593,972  61,496,975  28,666,738.7  [CUDA memcpy Device-to-Host]
+     14.8       23,208,871      4   5,802,217.8   5,876,568.5   5,273,202   6,182,532     386,307.4  [CUDA memcpy Host-to-Device]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    268.435      4    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Host-to-Device]
+    201.327      3    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Device-to-Host]
+
+Generated:
+	/afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/fastest_alpaka_profile.nsys-rep
+	/afs/hep.wisc.edu/user/dhumphreys/cuda_class/homework/tac-hep-gpus/Project/profile_reports/fastest_alpaka_profile.sqlite
