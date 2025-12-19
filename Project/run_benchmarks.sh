@@ -34,13 +34,14 @@ nvcc slow.cu -o slow
 nvcc average.cu -o average
 nvcc fast.cu -o fast
 nvcc fastest.cu -o fastest
+nvcc -x cu -std=c++20   -I$ALPAKA_ROOT/include   --expt-relaxed-constexpr   -DALPAKA_ACC_GPU_CUDA_ENABLED   fastest_alpaka.cpp -o fastest_alpaka
 
 echo "Running benchmarks - 20 iterations each"
 echo "========================================"
 
 # run_benchmark "main_cpu" "project_cxx"
-# run_benchmark "slow" "slow.cu"
-# run_benchmark "average" "average.cu"
+run_benchmark "slow" "slow.cu"
+run_benchmark "average" "average.cu"
 run_benchmark "fast" "fast.cu"
 run_benchmark "fastest" "fastest.cu"
 run_benchmark "fastest_alpaka" "fastest_alpaka.cpp"
